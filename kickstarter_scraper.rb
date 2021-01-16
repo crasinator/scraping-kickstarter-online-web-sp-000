@@ -13,6 +13,7 @@ def create_project_hash
  
   kickstarter.css("li.project.grid_4").each do |project|
     #go through all elements assigned to website section specified 
+    
     title = project.css("h2.bbcard_name strong a").text
     #create new value as title
     
